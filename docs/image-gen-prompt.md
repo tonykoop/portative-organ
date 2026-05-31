@@ -1,19 +1,19 @@
-# Image Generation Prompt
+# Image-Gen Prompts
 
-Concept visualization only. Do not treat generated images as dimensional, tuning, CAD, DXF, wind-pressure, or fabrication authority.
+Concept image only; not fabrication authority. Do not include cut-ready dimensions, hole locations, or toolpaths.
 
 ## Hero Prompt
 
-Photorealistic studio product photograph of a compact portative organ concept, a portable flue-pipe aerophone with a small wooden case, one short row of hand keys, visible hand bellows on one side, wind reservoir hidden in the body, windchest under a single rank of slender flue pipes, and simple key-to-pallet action suggested by service openings. Warm hardwood, restrained historical form, clean studio background, soft directional lighting, three-quarter product angle, about a 50mm lens, high detail.
+Photorealistic studio product photograph of a finished portative organ concept: a small, hand-held portable pipe organ read clearly as one carried object. A compact warm hardwood case the size of a large book holds the instrument together; along the top sits a single short row of plain wooden keys playable with one hand, while a folding leather-and-wood hand bellows is hinged to one side for the other hand to pump. Above a sealed windchest stands one rank of slender vertical flue pipes in graduated heights, each with a visible foot, mouth, and lip, the wind reservoir implied inside the body below the pipes. The mechanism that makes it recognizable is the pairing of the short keyboard with the upright pipe rank and the side bellows. Restrained medieval/historical form, oiled hardwood with a few small brass pins, lap-scale proportions, clean neutral studio background, soft directional studio light, three-quarter product-photography angle, about a 50mm lens, high detail, photorealistic, no text labels.
 
 ## In-Context Prompt
 
-Photorealistic image of the portative organ resting on a lap-height table in a quiet workshop, one hand on the bellows and the other near the short key row, with a non-playing wind-system mule, gasket material, and a tuner nearby. Natural window light, realistic scale, environmental storytelling around bellows cadence, reservoir steadiness, pallet sealing, and first-rank review.
+Photorealistic concept image of the portative organ staged on a lap-height workbench in a quiet luthier's workshop: the instrument supported against the body, one hand working the side hand bellows and the other resting near the short key row, the upright single rank of flue pipes catching the light. Nearby on the bench sit a non-playing wind-system mule, scraps of pallet gasket leather and felt, and a tuner, telling the story of an early prototype-review stage. Natural window light, shallow depth of field, realistic scale, environmental storytelling, concept visualization only.
 
-## Detail/Macro Prompt
+## Detail Prompt
 
-Macro close-up of the portative organ windchest and key action: small wooden keys lifting pallet valves, felt or leather pallet faces, pipe feet seated above the chest, service panel edge, warm oiled wood, brass pins, soft raking light, photorealistic high detail.
+Macro close-up of the portative organ's signature key-to-pallet action and windchest: small plain wooden keys lifting pallet valves inside a sealed windchest, soft felt or leather pallet faces, the seated feet and mouths of slender flue pipes rising just above the chest, a service-panel edge, warm oiled wood and small brass pins. Raking light grazing the wood grain and pipe metal, high detail, no measurements.
 
 ## Negative / Avoid
 
-Avoid church-organ scale, logos, watermarks, readable text, impossible pipe ranks, decorative fantasy mechanisms, extra hands or keys, fake measured pipe lengths, and fabrication labels.
+No text, logos, watermarks, or fake maker marks; no dimension callouts or tuning numbers; no church-organ scale, impossible pipe ranks, or decorative fantasy mechanisms; anatomically plausible hands if a player is shown.
