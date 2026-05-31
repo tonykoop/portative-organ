@@ -158,3 +158,11 @@ portativeOrganManipulate =
     {{pipeLengthRange, pipeLengthRangeEstimate, "plot length range estimate (m)"}, ControlType -> None},
     SaveDefinitions -> True
   ];
+
+portativeOrganModel = <|
+  "metadata" -> portativeOrganMetadata,
+  "defaultStudy" -> portativeOrganDefaultStudy,
+  "explorer" -> portativeOrganManipulate
+|>;
+
+portativeOrganModel
