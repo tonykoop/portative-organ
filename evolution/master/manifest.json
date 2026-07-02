@@ -1,0 +1,42 @@
+{
+  "product": "portative-organ",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "bom.csv",
+      "format": "csv-table",
+      "sha256": "0bff28d60bda4519c09ebd3cc7bab56069e8d517c114f5c832c0511944d2d49f",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Estimated part-family table only; not a dimensioned design table. Closest thing this repo has to a BOM/design-table baseline."
+    },
+    {
+      "path": "cut-list.csv",
+      "format": "csv-table",
+      "sha256": "c8cfe9c64a0dc0697fa3bbbbd8d3d7d42026c99d4191751aa1e28aec6f9eeb0d",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Estimated blank/mule-part families; every size and quantity field is TBD."
+    },
+    {
+      "path": "wolfram/portative-organ-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "f3b1581fd436d3ed4e6cfd18dcbfb5cdd6241944517a0fd577c54796ed4abe49",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Source-only (not executed); L2 evidence. Symbolic flue-pipe/reservoir relationship model with estimate constants."
+    },
+    {
+      "path": "portative-organ-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "9d3cbfe6f2b889cf4d04a0a1dfe178a30d23727d46e0f3e04640f5633fd93bad",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Starter scaffold; source-only, loads the model above."
+    }
+  ],
+  "notes": "No OpenSCAD or other CAD source exists for this product (see cad/README.md for the honest no-scad gap record). No design-table xlsx/csv with real pipe-schedule numbers exists either — bom.csv and cut-list.csv are estimate-only part/blank family lists, listed above as the closest available baseline artifacts, both still pending_measurement. Gate A (Alpha workspace compile) not yet run and not applicable until a real CAD master and pipe-scale table exist."
+}
