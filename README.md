@@ -13,9 +13,15 @@ This packet is not build-ready. It contains an L2 review scaffold for wind-path 
 - `design.md` - mechanism, wind path, pipe/rank concept, and parametric intent.
 - `bom.csv` - estimated parts families only.
 - `cut-list.csv` - estimated blank and coupon families only.
+- `sourcing.csv` - sourcing placeholders; all prices/lead-times TBD.
+- `validation.csv` - measurement-gate checklist for the wind-system mule, pallets, keys, and pipe speech; all measured/result fields TBD.
+- `risks.md` - risk narrative drawn from the failure modes and open questions below.
+- `drawing-brief.md` - required first drawings once a wind-system mule and pipe-scale table exist; no drawings are released yet.
 - `visual-output-register.csv` - V5 authority register; every row is concept-only or pending measurement.
-- `cad/mcp-session-log.md` - provenance stub; no MCP or CAD session was run.
+- `cad/mcp-session-log.md` - provenance log for every text/CSV/wolfram authoring pass; no MCP, CAD, or image-generation tool session has produced dimensional artifacts.
+- `cad/README.md` - honest no-scad gap record: no real pipe-schedule data exists in this repo, so no parametric CAD master was authored.
 - `decision-record.md` - decisions, qmd Step 0 result, family placement, and open questions.
+- `evolution/` - Stage 0 evolution-pipeline intake (manifest, design intent, revision register) recording the current baseline honestly, including the absence of a CAD master.
 
 ## Readiness Boundary
 
